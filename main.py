@@ -25,13 +25,13 @@ zodiac = st.selectbox("🌙 별자리를 선택하세요:", list(zodiac_data.key
 animal = st.selectbox("☀️ 띠를 선택하세요:", list(animal_data.keys()))
 
 if st.button("💫 분석하기"):
-    st.subheader(f" {name}님의 성격 분석 결과")
+    st.subheader(f"♥︎ {name}님의 성격 분석 결과♥︎")
     
     st.markdown(f"**MBTI ({mbti})**: {mbti_data[mbti]}")
     st.markdown(f"**별자리 ({zodiac})**: {zodiac_data[zodiac]}")
     st.markdown(f"**띠 ({animal})**: {animal_data[animal]}")
     
     st.markdown("---")
-    st.markdown("###  종합 해석")
+    st.markdown("### ♥︎ 종합 해석♥︎")
     result = analyze_personality(mbti, zodiac, animal)
     st.markdown(result)
