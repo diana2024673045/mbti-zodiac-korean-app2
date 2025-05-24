@@ -1,5 +1,6 @@
+import streamlit as st 
+st.set_page_config(page_title="MBTI + 별자리 + 띠 분석기", layout="centered")
 
-import streamlit as st
 st.markdown(
     """
     <style>
@@ -13,8 +14,6 @@ st.markdown(
 
 from data import mbti_data, zodiac_data, animal_data
 from analyzer import analyze_personality
-
-st.set_page_config(page_title="MBTI + 별자리 + 띠 분석기", layout="centered")
 
 st.title("♥︎ MBTI + 별자리 + 띠 성격 분석기 ♥︎")
 st.markdown("당신의 성격을 세 가지 요소로 알아보세요: **MBTI**, **별자리**, **띠**")
