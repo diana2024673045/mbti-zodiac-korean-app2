@@ -1,6 +1,4 @@
-from data import (
-    mbti_summary, zodiac_summary, animal_summary
-)
+from data import mbti_summary, zodiac_summary, animal_summary
 
 def analyze_personality(mbti, zodiac, animal):
     summary_mbti = mbti_summary.get(mbti, "")
