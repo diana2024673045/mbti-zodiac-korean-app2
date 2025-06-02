@@ -4,9 +4,9 @@ st.set_page_config(page_title="MBTI + 별자리 + 띠 분석기", layout="center
 st.markdown(
     """
     <style>
-    .stApp {
-        background-color: #bdd6fc;
-    }
+    .stApp div {
+    background: linear-gradient(to bottom, #3366ff 0%, #ff99cc 100%);
+}
     </style>
     """,
     unsafe_allow_html=True
