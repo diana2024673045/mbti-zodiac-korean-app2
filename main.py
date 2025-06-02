@@ -4,7 +4,7 @@ st.set_page_config(page_title="MBTI + 별자리 + 띠 분석기", layout="center
 st.markdown(
     """
     <style>
-    .stApp div {
+    .stApp {
     background-color: #bdd6fc;
 }
     </style>
